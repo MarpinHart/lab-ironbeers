@@ -1,0 +1,7 @@
+<!-- Loop on beer.-->
+{{#each beers}}
+<div>
+  <h3> {{this.name}}</h3> <!-- current beer (object); this.name = current name -->
+  <img src="{{this.image_url}}" alt=""> <!-- CHeck the console to know attributes-->
+</div>
+{{/each}}
